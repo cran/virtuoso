@@ -1,7 +1,7 @@
 Package: virtuoso
 Type: Package
 Title: Interface to 'Virtuoso' using 'ODBC'
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: c(person("Carl", "Boettiger", 
                   email = "cboettig@gmail.com", 
                   role = c("aut", "cre", "cph"),
@@ -11,7 +11,7 @@ Authors@R: c(person("Carl", "Boettiger",
                     email = "brycemecum@gmail.com",
                     comment = c(ORCID = "0000-0002-0381-3766")))
 Description: Provides users with a simple and convenient
-             mechanism to manage and query a 'Virtuoso' database using the 'DBI' (DataBase Interface)
+             mechanism to manage and query a 'Virtuoso' database using the 'DBI' (Data-Base Interface)
              compatible 'ODBC' (Open Database Connectivity) interface.
              'Virtuoso' is a high-performance "universal server," which can act
              as both a relational database, supporting standard Structured Query
@@ -21,7 +21,7 @@ Description: Provides users with a simple and convenient
              queries, a graph-based query that supports semantic reasoning.
              This allows users to leverage the performance of local or remote 'Virtuoso' servers using
              popular 'R' packages such as 'DBI' and 'dplyr', while also providing a 
-             high-performance solution for working with large 'RDF' triplestores from 'R.'
+             high-performance solution for working with large 'RDF' 'triplestores' from 'R.'
              The package also provides helper routines to install, launch, and manage
              a 'Virtuoso' server locally on 'Mac', 'Windows' and 'Linux' platforms using
              the standard interactive installers from the 'R' command-line.  By 
@@ -39,16 +39,18 @@ Encoding: UTF-8
 LazyData: true
 Imports: odbc, processx, DBI, utils, ini, rappdirs, curl, fs, digest,
         ps
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
 Suggests: knitr, rmarkdown, nycflights13, testthat, covr, jsonld,
         dplyr, spelling
 VignetteBuilder: knitr
 Language: en-US
+SystemRequirements: virtuoso-opensource (Linux). For Mac & Windows,
+        this package can automate Virtuoso installation.
 NeedsCompilation: no
-Packaged: 2020-01-10 19:13:46 UTC; cboettig
+Packaged: 2020-08-30 02:36:30 UTC; cboettig
 Author: Carl Boettiger [aut, cre, cph]
     (<https://orcid.org/0000-0002-1642-628X>),
   Bryce Mecum [ctb] (<https://orcid.org/0000-0002-0381-3766>)
 Maintainer: Carl Boettiger <cboettig@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-01-10 21:10:07 UTC
+Date/Publication: 2020-09-01 08:40:03 UTC

@@ -1,5 +1,6 @@
 addons
 config
+cran
 DataBase
 dba
 debian
@@ -23,6 +24,7 @@ nquads
 NumberOfBuffers
 ODBC
 odbcinst
+ORCID
 OSX
 RDBS
 RDF

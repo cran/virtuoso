@@ -8,14 +8,30 @@
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <meta name="author" content="Carl Boettiger" />
 
-<meta name="date" content="2020-01-10" />
+<meta name="date" content="2020-08-30" />
 
 <title>Introduction: Virtuoso Installation and Configuration</title>
 
+<script>// Hide empty <a> tag within highlighted CodeBlock for screen reader accessibility (see https://github.com/jgm/pandoc/issues/6352#issuecomment-626106786) -->
+// v0.0.1
+// Written by JooYoung Seo (jooyoung@psu.edu) and Atsushi Yasumoto on June 1st, 2020.
+
+document.addEventListener('DOMContentLoaded', function() {
+  const codeList = document.getElementsByClassName("sourceCode");
+  for (var i = 0; i < codeList.length; i++) {
+    var linkList = codeList[i].getElementsByTagName('a');
+    for (var j = 0; j < linkList.length; j++) {
+      if (linkList[j].innerHTML === "") {
+        linkList[j].setAttribute('aria-hidden', 'true');
+      }
+    }
+  }
+});
+</script>
 
 
 
@@ -31,9 +47,6 @@ padding-right: 2em;
 font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 14px;
 line-height: 1.35;
-}
-#header {
-text-align: center;
 }
 #TOC {
 clear: both;
@@ -202,7 +215,8 @@ code > span.st { color: #d14; }
 code > span.co { color: #888888; font-style: italic; } 
 code > span.ot { color: #007020; } 
 code > span.al { color: #ff0000; font-weight: bold; } 
-code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61717; background-color: #e3d2d2; } 
+code > span.fu { color: #900; font-weight: bold; } 
+code > span.er { color: #a61717; background-color: #e3d2d2; } 
 </style>
 
 
@@ -217,7 +231,7 @@ code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61
 
 <h1 class="title toc-ignore">Introduction: Virtuoso Installation and Configuration</h1>
 <h4 class="author">Carl Boettiger</h4>
-<h4 class="date">2020-01-10</h4>
+<h4 class="date">2020-08-30</h4>
 
 
 
@@ -225,7 +239,7 @@ code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61
 Virtuoso supports communication over the standard ODBC interface, and so R users can potentially connect to Virtuoso merely by installing the server and using the <code>odbc</code> R package. However, installation can present a few gotchas to users unfamiliar with Virtuoso. This package seeks to streamline the process of installing, managing, and querying a Virtuoso server. While the package can be also be used merely to provide a standard <code>DBI</code> connection to an RDBS, e.g. as a <code>dplyr</code> back-end, Virtuoso’s popularity and performance is particularly notable with respect to RDF data and SPARQL queries, so most examples focus on those use cases.</p>
 <div id="installation" class="section level2">
 <h2>Installation</h2>
-<p>The <code>virtuoso</code> package provides installation helpers for both Mac OSX and Windows users through the function <code>vos_install()</code>. At the time of writing, the Mac OS X installer uses Homebrew to install the Virtuoso Open Source server (similar to the <code>hugo</code> installer in RStudio’s <code>blogdown</code>). On Windows, <code>vos_install()</code> downloads and executes the Windows self-extracting archive (<code>.exe</code> file), which will open a standard installation dialog in interactive mode, or be run automatically if not run in an interactive session. No automated installer is provided for Linux systems; Linux users are encouraged to simply install the appropriate binaries for their distribution (e.g. <code>apt-get install -y virtuoso-opensource</code> on Debian/Ubuntu systems).</p>
+<p>The <code>virtuoso</code> package provides installation helpers for both Mac OSX and Windows users through the function <code>vos_install()</code>. At the time of writing, the Mac OS X installer uses Homebrew to install the Virtuoso Open Source server (similar to the <code>hugo</code> installer in RStudio’s <code>blogdown</code>). On Windows, <code>vos_install()</code> downloads and executes the Windows self-extracting archive (<code>.exe</code> file), which will open a standard installation dialog in interactive mode, or be run automatically if not run in an interactive session. No automated installer is provided for Linux systems; Linux users are encouraged to simply install the appropriate binaries for their distribution (e.g. <code>apt-get install -y virtuoso-opensource</code> on Debian/Ubuntu systems).</p>
 </div>
 <div id="configuration" class="section level2">
 <h2>Configuration</h2>
