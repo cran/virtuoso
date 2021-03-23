@@ -1,7 +1,7 @@
 Package: virtuoso
 Type: Package
 Title: Interface to 'Virtuoso' using 'ODBC'
-Version: 0.1.5
+Version: 0.1.6
 Authors@R: c(person("Carl", "Boettiger", 
                   email = "cboettig@gmail.com", 
                   role = c("aut", "cre", "cph"),
@@ -47,10 +47,10 @@ Language: en-US
 SystemRequirements: virtuoso-opensource (Linux). For Mac & Windows,
         this package can automate Virtuoso installation.
 NeedsCompilation: no
-Packaged: 2020-08-30 02:36:30 UTC; cboettig
+Packaged: 2021-03-22 21:09:59 UTC; cboettig
 Author: Carl Boettiger [aut, cre, cph]
     (<https://orcid.org/0000-0002-1642-628X>),
   Bryce Mecum [ctb] (<https://orcid.org/0000-0002-0381-3766>)
 Maintainer: Carl Boettiger <cboettig@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-09-01 08:40:03 UTC
+Date/Publication: 2021-03-23 01:00:02 UTC
