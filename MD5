@@ -1,7 +1,7 @@
-52c8b2902492d7905bd1bcff616a129b *DESCRIPTION
+9b90ffe9d76ec72ce925659627ca34f9 *DESCRIPTION
 65d0151f3ccf0ed66271d0452cb9a11e *LICENSE
 823bda8ebb356ed949ecd2ba0d15233f *NAMESPACE
-bb94008c0ec81228ea7c86015222566d *NEWS.md
+272923a332d086c8858e9d080bc0a810 *NEWS.md
 ec033d89469a9cc3d4520fc88d596c6e *R/utilities.R
 5ad3a77f78c67b1160d9bca9b7a0fe31 *R/virtuoso-package.R
 3c8201b1ff47ea82e10c5f8892d5a52e *R/virtuoso.R
@@ -10,7 +10,7 @@ d33e7632314e5c03de27e98c1384fdbc *R/vos_configure.R
 da8415b8a6d0834563b6bafb4b734f9f *R/vos_connect.R
 0154935e33ab4d3e7bba2dbf24a25617 *R/vos_destroy_all.R
 848079c2c8f2a119b29507ee09a9756e *R/vos_import.R
-945d497ff6f41ec7c4e1cbf9aa6f5d50 *R/vos_install.R
+54aa5464a5c91fb5c07d13e84f40a5b2 *R/vos_install.R
 6e28196387c475515094db43e44f4665 *R/vos_install_linux.R
 a8152276c41ad88bba3a96fa07eab7cc *R/vos_install_osx.R
 c30ea39f723fdee2b5bb7213f69bce4f *R/vos_install_windows.R
@@ -23,11 +23,11 @@ bb05ccd537744d9683e1f0b3dceeb986 *R/vos_odbcinst.R
 c6fc1f1a8e1f198503405ed3403151bc *R/vos_status.R
 110c2c0a007d69e82596418456168fdf *R/vos_uninstall.R
 b0f3ff65f106467cf0dde34a2176040e *README.md
-360a96fea47af7702f6867a055319923 *build/vignette.rds
+1548dd67b71cb2d9e8d87aaa98861531 *build/vignette.rds
 b4b5fb5d6eba6b20ab104ac545b4b430 *inst/WORDLIST
 46750e778a5cdb4d65c347f8e43df623 *inst/doc/installation.R
 4515f23a8eda692908d7175664bce958 *inst/doc/installation.Rmd
-a16b34e78986a5d424d1c4eaafb24b31 *inst/doc/installation.html
+9e26b3bba49b1524a4d349f35ec9e3f7 *inst/doc/installation.html
 4d5c185726a6e73985ae86e7cd19b453 *inst/examples/codemeta.R
 ed1e6e01d72a8e5d2651491aa1681afb *inst/examples/docker.R
 cd5fbe51f96eb8a32172c7536810f7b6 *inst/examples/json.R
