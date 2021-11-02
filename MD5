@@ -1,7 +1,7 @@
-9b90ffe9d76ec72ce925659627ca34f9 *DESCRIPTION
+55b369fe8e80dbc001b0329424a6fcad *DESCRIPTION
 65d0151f3ccf0ed66271d0452cb9a11e *LICENSE
 823bda8ebb356ed949ecd2ba0d15233f *NAMESPACE
-272923a332d086c8858e9d080bc0a810 *NEWS.md
+75b6d4eb9295efd6e78d4232316c7a4f *NEWS.md
 ec033d89469a9cc3d4520fc88d596c6e *R/utilities.R
 5ad3a77f78c67b1160d9bca9b7a0fe31 *R/virtuoso-package.R
 3c8201b1ff47ea82e10c5f8892d5a52e *R/virtuoso.R
@@ -10,7 +10,7 @@ d33e7632314e5c03de27e98c1384fdbc *R/vos_configure.R
 da8415b8a6d0834563b6bafb4b734f9f *R/vos_connect.R
 0154935e33ab4d3e7bba2dbf24a25617 *R/vos_destroy_all.R
 848079c2c8f2a119b29507ee09a9756e *R/vos_import.R
-54aa5464a5c91fb5c07d13e84f40a5b2 *R/vos_install.R
+adafa44a0b01729c4c498d3bcd10776d *R/vos_install.R
 6e28196387c475515094db43e44f4665 *R/vos_install_linux.R
 a8152276c41ad88bba3a96fa07eab7cc *R/vos_install_osx.R
 c30ea39f723fdee2b5bb7213f69bce4f *R/vos_install_windows.R
@@ -27,7 +27,7 @@ b0f3ff65f106467cf0dde34a2176040e *README.md
 b4b5fb5d6eba6b20ab104ac545b4b430 *inst/WORDLIST
 46750e778a5cdb4d65c347f8e43df623 *inst/doc/installation.R
 4515f23a8eda692908d7175664bce958 *inst/doc/installation.Rmd
-9e26b3bba49b1524a4d349f35ec9e3f7 *inst/doc/installation.html
+4c99925a359369c3dfaee1f60634e81d *inst/doc/installation.html
 4d5c185726a6e73985ae86e7cd19b453 *inst/examples/codemeta.R
 ed1e6e01d72a8e5d2651491aa1681afb *inst/examples/docker.R
 cd5fbe51f96eb8a32172c7536810f7b6 *inst/examples/json.R
@@ -62,7 +62,7 @@ c923ca549c284a09ce28606943d8568a *tests/testthat.R
 8636776d402830180121e56d34952850 *tests/testthat/test-utilities.R
 17224551d598221a4f19c98fc89b42f7 *tests/testthat/test-vos_configure.R
 8bb72a652deb570e7a4690887a655c04 *tests/testthat/test-vos_install-errors.R
-ade6a8b0ecb05e1f298ae07f613840f4 *tests/testthat/test-vos_install.R
+c77bb69b985c86ea580138768d92593e *tests/testthat/test-vos_install.R
 1d79ab0e9d179c5c20e7c50978dda6d3 *tests/testthat/test-vos_odbc.R
 8b0f9a105d141e1395b93a9bed7794a7 *tests/testthat/test-vos_query.R
 cd23146a7f208e374f68da543d23d152 *tests/testthat/test-without-vos.R
